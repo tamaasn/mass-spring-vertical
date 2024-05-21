@@ -14,8 +14,8 @@ def displacement(time , y0 , v0 , omega):
 def show_graph(massa , konstan , y0 , v0):
     omega = math.sqrt(konstan / massa)
     waktu = []
-    for i in range(1):
-        waktu.append(i)
+    for i in range(1000):
+        waktu.append(i * 0.001)
 
     pemindahan = []
 
